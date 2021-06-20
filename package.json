@@ -13,10 +13,13 @@
         "autoprefixer": "^10.2.6",
         "axios": "^0.21",
         "install": "^0.13.0",
-        "laravel-mix": "^6.0.6",
+        "laravel-mix": "^6.0.23",
         "lodash": "^4.17.19",
         "npm": "^7.18.1",
         "postcss": "^8.3.5",
         "tailwindcss": "^2.2.0"
+    },
+    "dependencies": {
+        "composer": "^4.1.0"
     }
 }
