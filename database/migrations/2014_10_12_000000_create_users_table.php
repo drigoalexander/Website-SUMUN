@@ -21,11 +21,12 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->integer('id_institusi');
-            $table->integer('ket_institusi');
-            $table->string('nama_institusi')->nullable();
-            $table->string('jurusan')->nullable();
-            $table->string('kelas')->nullable();
-            $table->string('no_hp')->nullable();
+            $table->string('nama_institusi');
+            $table->string('jurusan');
+            $table->string('kelas');
+            $table->string('no_hp');
+            $table->integer('verified')->default(0);
+            $table->string('email_token')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
