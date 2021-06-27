@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/app.css">
     <title>Document</title>
+    
 </head>
 <body class="relative">
 <nav class="bg-main-0 py-10 text-white font-navbar font-medium">
@@ -12,26 +13,26 @@
         id="navitems"
         class="max-w-7xl mx-auto items-center grid grid-cols-9"
       >
-        <a href="" class="justify-self-center relative hover:text-signup-0">
+        <a href="" class="link justify-self-center relative hover:text-signup-0">
           Home
         </a>
-        <a href="" class="justify-self-center relative hover:text-signup-0"
+        <a href="" class="link justify-self-center relative hover:text-signup-0"
           >About</a
         >
-        <a href="" class="justify-self-center relative hover:text-signup-0"
+        <a href="" class="link justify-self-center relative hover:text-signup-0"
           >Council & Topic</a
         >
-        <a href="" class="justify-self-center relative hover:text-signup-0"
+        <a href="" class="link justify-self-center relative hover:text-signup-0"
           >Schedule</a
         >
         <div class="justify-self-center">
           <img class="h-20" src="{{URL::asset('images/unknown.png')}}" alt="" />
         </div>
 
-        <a href="" class="justify-self-center relative hover:text-signup-0"
+        <a href="" class="link justify-self-center relative hover:text-signup-0"
           >Registration</a
         >
-        <a href="" class="justify-self-center relative hover:text-signup-0"
+        <a href="" class="link justify-self-center relative hover:text-signup-0"
           >Merchandise</a
         >
 
@@ -39,7 +40,7 @@
           id="navitems"
           class="justify-self-center flex gap-4 items-center text-sm col-span-2"
         >
-          <a href="" class="justify-self-start relative hover:text-signup-0"
+          <a href="#login" class="link justify-self-start relative hover:text-signup-0"
             >Log In</a
           >
           <div class="text-xs"><h2>or</h2></div>
@@ -60,6 +61,10 @@
         </div>
       </div>
     </nav>
+    <script src="{{ URL::to('js/main.js') }}"></script>
+
     @yield('content')
+    
 </body>
 </html>
+
