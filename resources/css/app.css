@@ -15,10 +15,16 @@ transform: scaleX(0);
 transition: all 0.3s ease-in-out 0s;
 }
 
-#navitems a:hover::before {
+.active, #navitems a:hover::before {
 visibility: visible;
 transform: scaleX(1);
 }
+
+#navitems a:hover::before:visited {
+  visibility: visible;
+  transform: scaleX(1);
+  }
+
 
 html {
 scroll-behavior: smooth;
@@ -35,7 +41,7 @@ height: 54rem;
   }
   .content{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
   }
   .content .list{
@@ -126,4 +132,23 @@ height: 54rem;
   .content input{
     display: none;
   }
+
+  .h-timeline{
+    height: 54rem;
+  }
   
+  .top-timeline{
+    top:37rem;
+  }
+
+  @layer components{
+
+    .tabletime{
+      @apply text-xl h-5;
+    }
+
+    .tablekosong{
+      @apply bg-timelinebot-0 opacity-30
+    }
+
+  }
