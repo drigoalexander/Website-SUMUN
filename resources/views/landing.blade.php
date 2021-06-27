@@ -116,7 +116,7 @@
             <h2>Nations</h2>
           </div>
           <div class="pb-3">
-            <img class="w-1/3" src="line.png" alt="" />
+            <img class="w-1/3" src="images/line.png" alt="" />
           </div>
           <div
             class="
@@ -179,7 +179,7 @@
             <h2>Nations</h2>
           </div>
           <div class="pb-3">
-            <img class="w-1/3" src="line.png" alt="" />
+            <img class="w-1/3" src="images/line.png" alt="" />
           </div>
           <div
             class="
@@ -227,143 +227,161 @@
 
     <!-- Timeline -->
 
-    <div class="container max-w-7xl mx-auto text-white">
-      <div class="content h-96">
+    <div class="container max-w-7xl mx-auto text-white pt-52 pb-52">
+      <div class="content h-timeline">
         <input type="radio" name="slider" checked id="home" />
         <input type="radio" name="slider" id="blog" />
         <div class="list flex flex-col justify-start h-full">
           <label for="home" class="home">
             <i class="fas fa-home"></i>
-            <span class="title">Home</span>
+            <span class="title">Timeline</span>
           </label>
           <label for="blog" class="blog">
             <span class="icon"><i class="fas fa-blog"></i></span>
-            <span class="title">Blog</span>
+            <span class="title">Rundown</span>
           </label>
 
           <div class="slider"></div>
         </div>
-        <div class="text-content">
-          <div class="home text">
-            <div class="title">Home Content</div>
-            <p>
-            hihi
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-              excepturi ducimus sequi dignissimos expedita tempore omnis quos
-              cum, possimus, aspernatur esse nihil commodi est maiores dolorum
-              rem iusto atque, beatae voluptas sit eligendi architecto dolorem
-              temporibus. Non magnam ipsam, voluptas quasi nam dicta ut. Ad
-              corrupti aliquid obcaecati alias, nemo veritatis porro nisi eius
-              sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!
-            </p>
+        <div class="text-content max-w-4xl relative">
+            
+          <!-- Timeline Content -->
+
+          <div class="home text relative flex justify-between">
+              <div class="absolute mx-auto h-full w-1 bg-gray-400 right-0 left-0 rounded-full ">
+              </div>
+              <div class="absolute mx-auto h-4 w-4 bg-gray-400 right-0 left-0 rounded-full">
+
+              </div>
+              <div class="absolute mx-auto h-4 w-4 bg-gray-400 right-0 left-0 rounded-full top-48">
+
+              </div>
+              <div class="absolute mx-auto h-4 w-4 bg-gray-400 right-0 left-0 rounded-full top-full">
+
+              </div>
+              <div class="absolute mx-auto h-4 w-4 bg-gray-400 right-0 left-0 rounded-full top-timeline">
+
+              </div>
+              <div class="absolute mx-auto h-4 w-4 bg-gray-400 right-0 left-0 rounded-full top-96">
+
+              </div>
+              <div class=" h-full w-full flex flex-col justify-items-center pl- pr-8 gap-y-16">
+              <div class="w-72 h-36 items-center relative">
+                          <div class="relative z-10 font-judul text-3xl font-medium text-center">
+                            January
+                        </div>
+                        <div class="text-center relative z-10 mt-3 font-sans w-5/7 mx-auto">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-bl from-timelinetop-0 rounded-3xl z-0 opacity-40">
+                          </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-tr from-timelinebot-0 rounded-3xl z-0 opacity-40">
+                          </div>
+              </div>
+              <div class="w-72 h-36 items-center relative self-end">
+                          <div class="relative z-10 font-judul text-3xl font-medium text-center">
+                            February
+                        </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-bl from-timelinetop-0 rounded-3xl z-0 opacity-40">
+                          </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-tr from-timelinebot-0 rounded-3xl z-0 opacity-40">
+                          </div>
+              </div>
+              <div class="w-72 h-36 items-center relative">
+                          <div class="relative z-10 font-judul text-3xl font-medium text-center">
+                            March
+                        </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-bl from-timelinetop-0 rounded-3xl z-0 opacity-40">
+                          </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-tr from-timelinebot-0 rounded-3xl z-0 opacity-40">
+                          </div>
+              </div>
+              <div class="w-72 h-36 items-center relative self-end">
+                          <div class="relative z-10 font-judul text-3xl font-medium text-center">
+                            April
+                        </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-bl from-timelinetop-0 rounded-3xl z-0 opacity-40">
+                          </div>
+                          <div class="w-full h-full absolute top-4 justify-self-center bg-gradient-to-tr from-timelinebot-0 rounded-3xl z-0 opacity-40">
+                          </div>
+              </div>
           </div>
-          <div class="blog text">
-            <div class="title">Blog Content</div>
-            <p>
-            hihi
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-              excepturi ducimus sequi dignissimos expedita tempore omnis quos
-              cum, possimus, aspernatur esse nihil commodi est maiores dolorum
-              rem iusto atque, beatae voluptas sit eligendi architecto dolorem
-              temporibus. Non magnam ipsam, voluptas quasi nam dicta ut. Ad
-              corrupti aliquid obcaecati alias, nemo veritatis porro nisi eius
-              sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quasi excepturi ducimus sequi dignissimos expedita tempore omnis
-              quos cum, possimus, aspernatur esse nihil commodi est maiores
-              dolorum rem iusto atque, beatae voluptas sit eligendi architecto
-              dolorem temporibus. Non magnam ipsam, voluptas quasi nam dicta ut.
-              Ad corrupti aliquid obcaecati alias, nemo veritatis porro nisi
-              eius sequi dignissimos ea repellendus quibusdam minima ipsum animi
-              quae, libero quisquam a! Laudantium iste est sapiente, ullam
-              itaque odio iure laborum voluptatem quaerat tempore doloremque
-              quam modi, atque minima enim saepe! Dolorem rerum minima incidunt,
-              officia!
-            </p>
+              
+          </div>
+
+          <!-- Blog Content -->
+          <div class="blog text max-w-4xl relative">
+          <div class="relative p-5 bg-tablebg-0 rounded-xl">
+            <table class="table-fixed w-full border-separate text-white">
+              <tbody>
+              <tr class=" text-center font-medium font-judul text-3xl h-16">
+              <td  class=" bg-time-0 rounded-md w-1/4">Time</td>
+              <td class=" bg-timelinebot-0 rounded-md ">Day</td>
+              <td class="bg-timelinebot-0 rounded-md">Day</td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">08.00</td>
+              <td class=" tablekosong"></td>
+              <td rowspan="2" class=" bg-tableisi-0">Webinar AZIK</td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">09.00</td>
+              <td class="tablekosong"></td>
+              <!-- <td class="">Day</td> -->
+              </tr>
+              <tr class=" text-center h-12">
+              <td class="tabletime">10.00</td>
+              <td class=" bg-tableisi-0">Webinar ASHIAP</td>
+              <td class=" tablekosong"></td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">11.00</td>
+              <td class=" bg-tableisi-0">Webinar ah mantab</td>
+              <td class="tablekosong"></td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime ">12.00</td>
+              <td class="tablekosong"></td>
+              <td class="tablekosong"></td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime ">13.00</td>
+              <td rowspan="2" class=" bg-tableisi-0">Webinar AZIK</td>
+              <td class=" bg-tableisi-0">Webinar ASHIAP</td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">14.00</td>
+              <td class=" bg-tableisi-0">Webinar ah mantab</td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">15.00</td>
+              <td class="tablekosong"></td>
+              <td class="tablekosong"></td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">16.00</td>
+              <td class=" bg-tableisi-0">Webinar ASHIAP</td>
+              <td class=" tablekosong"></td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">17.00</td>
+              <td class=" bg-tableisi-0">Webinar ah mantab</td>
+              <td class=" bg-tableisi-0" rowspan="2">Webinar AZIK</td>
+              </tr>
+              <tr class=" text-center h-12">
+              <td class=" tabletime">18.00</td>
+              <td class="tablekosong"></td>
+              </tr>
+              </tbody>
+            </table>
+            </div>    
           </div>
         </div>
       </div>
     </div>
 
     <!-- Footer -->
-
+    
     <footer class="relative">
       <div
         class="bg-gradient-to-t from-footgr-0 absolute w-full h-full opacity-50"

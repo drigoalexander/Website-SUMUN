@@ -9,7 +9,12 @@ module.exports = {
         card: ['#27372C'],
         buttonactive: ['#2FCB6E'],
         foot: ['#E1E1E1'],
-        footgr: ['#437959']
+        footgr: ['#437959'],
+        timelinetop: ['#57CA85'],
+        timelinebot: ['#184E68'],
+        time: ['#2FCB6E'],
+        tablebg: ['#242E28'],
+        tableisi: ['#1F5975'],
       },
       fontFamily: {
         navbar: ['Open Sans, sans-serif'],

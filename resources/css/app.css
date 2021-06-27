@@ -35,7 +35,7 @@ height: 54rem;
   }
   .content{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
   }
   .content .list{
@@ -126,4 +126,23 @@ height: 54rem;
   .content input{
     display: none;
   }
+
+  .h-timeline{
+    height: 54rem;
+  }
   
+  .top-timeline{
+    top:37rem;
+  }
+
+  @layer components{
+
+    .tabletime{
+      @apply text-xl h-5;
+    }
+
+    .tablekosong{
+      @apply bg-timelinebot-0 opacity-30
+    }
+
+  }
